@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2020_02_22_210504) do
     t.text "description"
     t.string "country"
     t.text "tags"
+    t.float "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

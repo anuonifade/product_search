@@ -5,6 +5,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.text :description
       t.string :country
       t.text :tags
+      t.float :price, precision: 6, scale: 2
 
       t.timestamps
     end
