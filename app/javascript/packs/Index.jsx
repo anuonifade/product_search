@@ -6,9 +6,10 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import App from '../components/App';
 
+console.log('It got here in the component');
 document.addEventListener('DOMContentLoaded', () => {
-  ReactDOM.render(
-    <Hello name="React" />,
-    document.body.appendChild(document.createElement('div')),
-  )
+  render(
+    <App />,
+    document.body.appendChild(document.createElement("div"))
+  );
 })
